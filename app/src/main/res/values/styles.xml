@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Toolbar.Button.Navigation.Tinted" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="tint">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="TextInputLayoutStyle" parent="@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxStrokeColor">@color/text_input_stroke_color</item>
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="android:enabled">true</item>
+        <item name="android:hint">@string/enter_date</item>
+        <item name="android:textColorHint">@color/text_on_p</item>
+    </style>
+
+    <style name="OutlinedTextInputLayoutStyle" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/outlined_text_input_stroke_color</item>
+        <item name="hintTextColor">@color/outlined_text_input_stroke_color</item>
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="android:enabled">true</item>
+    </style>
+
+    <style name="CurrencyNameTextViewStyle" parent="@style/Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/text_on_p</item>
+        <item name="android:textSize">@dimen/card_text_currency_size</item>
+    </style>
+
+    <style name="CurrencyRateTextViewStyle" parent="@style/Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/text_light</item>
+        <item name="android:textSize">@dimen/card_text_rate_size</item>
+    </style>
+
+    <style name="RateTextViewStyle" parent="@style/Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/converter_text_view_text_size</item>
+    </style>
+
+    <style name="ValueTextViewStyle" parent="@style/Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/converter_text_view_text_size_big</item>
+    </style>
+
+    <dimen name="converter_text_view_text_size_big">32sp</dimen>
+</resources>

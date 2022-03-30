@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_corner_radius">16dp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="card_text_currency_size">32sp</dimen>
+    <dimen name="card_text_rate_size">20sp</dimen>
+    <dimen name="loader_elevation">12dp</dimen>
+    <dimen name="loading_text_size">18sp</dimen>
+    <dimen name="loader_margin">16dp</dimen>
+    <dimen name="card_elevation">0dp</dimen>
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_big">20dp</dimen>
+    <dimen name="converter_text_view_text_size">18sp</dimen>
+</resources>
